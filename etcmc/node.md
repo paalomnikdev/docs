@@ -76,6 +76,21 @@ Click 'Import'.
 18. Your main buttons from now on will be 'EARN ETCPOW' and 'STOP NODE'. Click 'EARN ETCPOW' once.
 19. Fresh nodes will download the full ETC blockchain before they start earning for you, which might take up to 5-6 hours. You don't need to do anything; earning will start once the blockchain is downloaded.
 
+Routine node management
+
+Please keep in mind that any power cuts or improper shutdowns may harm your unclaimed balance, so always start and stop your node according to the instructions below.
+
+Node start
+1. Right click on desktop shortcut -> Run as administrator
+2. GETH client
+3. EARN ETCPOW
+
+Node shutdown
+1. STOP NODE
+2. Close both ETCMC windows
+
+
+
 Donate
 
 If this guide was helpful for you and you want to say thank you you can tip me to
