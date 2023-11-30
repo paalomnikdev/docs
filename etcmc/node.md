@@ -1,5 +1,9 @@
 ETCMC digital node operator guide
 
+Donate
+If this guide was helpful for you and you want to say thank you you can tip me to
+ETC/ETCPOW address 0xAf8AD530a794cc06c111917640FC3f2948D3c4b4
+
 Preparations
 
 This guide created for specific mini PC Firebat AK2 plus but will work with most similar mini PCs.
