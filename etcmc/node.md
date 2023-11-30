@@ -41,6 +41,7 @@ Setup
 10. Install Ccleaner
 11. (OPTIONAL IF YOUR NODES WILL LIVE IN YOUR HOME NETWORK AND YOU WANT TO ACCESS THEM FROM HOME)Go to Settings -> System -> Remote desktop and turn on Remote desktop
 12. (IF YOUR NODE WILL LIVE IN DIFFERENT NETWORK OR YOU WANT TO ACCESS THEM FROM OUTSIDE YOUR HOME) You can use Teamviewer/Radmin/Anydesk/etc for remote access to your nodes but I recommend you to use Google's Remote Desktop https://remotedesktop.google.com/
+13. (OPTIONAL, for convinient way to find your node in network) Go to Settings -> System -> About -> Rename this PC and set the same as username you created previously.
 
 ETCMC part
 Assuming you are done with system setup and you have 249$ on your self-custodial wallet or even ETCPOW you can ready to start with this section.
