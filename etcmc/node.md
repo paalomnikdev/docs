@@ -39,7 +39,7 @@ Setup
 8. Go to Settings -> Accounts -> Sign-in options. Disable dynamic lock and set If you've been away, when should Windows require you to sign in again? to Never
 9. Go to Control Panel -> System and Security -> Windows defender firewall -> Turn Windows Defender Firewall on or off and seclect Turn off everywhere and press Ok
 10. Install Ccleaner
-11. (OPTIONAL IF YOUR NODES WILL LIVE IN YOUR HOME NETWORK AND YOU WILL ACCESS THEM ONLY FROM HOME NETWORK)Go to Settings -> System -> Remote desktop and turn on Remote desktop
+11. (OPTIONAL IF YOUR NODES WILL LIVE IN YOUR HOME NETWORK AND YOU WANT TO ACCESS THEM FROM HOME)Go to Settings -> System -> Remote desktop and turn on Remote desktop
 12. (IF YOUR NODE WILL LIVE IN DIFFERENT NETWORK OR YOU WANT TO ACCESS THEM FROM OUTSIDE YOUR HOME) You can use Teamviewer/Radmin/Anydesk/etc for remote access to your nodes but I recommend you to use Google's Remote Desktop https://remotedesktop.google.com/
 
 ETCMC part
