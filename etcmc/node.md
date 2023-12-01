@@ -39,11 +39,12 @@ Setup
 7. Go to Settings -> System -> Power & sleep, and set everything to 'Never'.
 8. Go to Settings -> Accounts -> Sign-in options. Disable dynamic lock and set 'If you've been away, when should Windows require you to sign in again?' to 'Never'.
 9. Go to Control Panel -> System and Security -> Windows Defender Firewall -> Turn Windows Defender Firewall on or off, select 'Turn off' everywhere, and press 'Ok'.
-10. Install CCleaner.
-11. You can install/enable both remote access options mentioned below.
-12. (OPTIONAL IF YOUR NODES WILL BE IN YOUR HOME NETWORK AND YOU WANT TO ACCESS THEM FROM HOME) Go to Settings -> System -> Remote Desktop and turn on 'Remote Desktop'.
-13. (IF YOUR NODE WILL BE IN A DIFFERENT NETWORK OR YOU WANT TO ACCESS THEM FROM OUTSIDE YOUR HOME) You can use TeamViewer, Radmin, AnyDesk, etc. for remote access to your nodes, but I recommend using Google's Remote Desktop (https://remotedesktop.google.com/).
-14. (OPTIONAL, for a convenient way to find your node in the network) Go to Settings -> System -> About -> Rename this PC, and set it the same as the username you created previously.
+10. Go to Settings -> System -> Display and set resolution to 1920x1080
+11. Install CCleaner.
+12. You can install/enable both remote access options mentioned below.
+13. (OPTIONAL IF YOUR NODES WILL BE IN YOUR HOME NETWORK AND YOU WANT TO ACCESS THEM FROM HOME) Go to Settings -> System -> Remote Desktop and turn on 'Remote Desktop'.
+14. (IF YOUR NODE WILL BE IN A DIFFERENT NETWORK OR YOU WANT TO ACCESS THEM FROM OUTSIDE YOUR HOME) You can use TeamViewer, Radmin, AnyDesk, etc. for remote access to your nodes, but I recommend using Google's Remote Desktop (https://remotedesktop.google.com/).
+15. (OPTIONAL, for a convenient way to find your node in the network) Go to Settings -> System -> About -> Rename this PC, and set it the same as the username you created previously.
 
 ETCMC Part
 Assuming you are done with system setup and you have $249 in your self-custodial wallet or even ETCPOW, you are ready to start this section.
