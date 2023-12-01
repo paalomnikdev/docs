@@ -1,16 +1,17 @@
-ETCMC digital node operator guide
+# ETCMC digital node operator guide
 
-Terminology
-Node - A mini PC where you will run the ETCMC software.
-Workstation - A PC, Mac, laptop, or tablet used for managing your wallet and from which you will connect to your nodes.
+## Terminology
+**Node** - A mini PC where you will run the ETCMC software.
 
-Preparations
+**Workstation** - A PC, Mac, laptop, or tablet used for managing your wallet and from which you will connect to your nodes.
+
+## Preparations
 
 This guide is created specifically for the Firebat AK2 Plus mini PC but will work with most similar mini PCs.
 
-Hardware list:
+## Hardware list:
 
-- Mini PC with minimal system requirements: 4 cores, 4 threads, 8 GB RAM, 256 GB SSD/NVMe.
+- [ ] Mini PC with minimal system requirements: 4 cores, 4 threads, 8 GB RAM, 256 GB SSD/NVMe.
 - Display emulator to prevent Windows issues related to having no monitor attached (if you don't plan to run your node with a connected monitor).
 - Your router should support UPnP (check Google for instructions on how to verify this); otherwise, you will need to do port forwarding manually (use Google for instructions specific to your router).
 - (OPTIONAL) Wired Ethernet connection equipment like cables and switches is recommended for running nodes, but Wi-Fi will also work.
