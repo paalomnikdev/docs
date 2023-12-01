@@ -93,6 +93,12 @@ Please keep in mind that any power cuts or improper shutdowns may harm your uncl
 1. STOP NODE
 2. Close both ETCMC windows
 
+## FAQ
+- **How to run multiple nodes in one network?**
+    - In order to run multiple nodes in single network you will need to configure custom network port for each node.
+    - The very first node can be untouched, all next nodes should have custom port.
+    - Default ETCMC node port is 30303, the next one should be 30306, 30309 and so on.
+    - Go to your ETCMC software installation path -> ETCMC_GUI -> ETCMC_GETH -> right click on START_GETH_FAST_NODE1.bat -> Show more options(skip in Windows 10)
 
 
 ## Donate 💸
