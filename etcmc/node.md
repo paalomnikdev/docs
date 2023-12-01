@@ -71,14 +71,16 @@ Click 'Import'.
 9. Once you have downloaded the installer file and have remote access to your node from your workstation, let's set up the ETCMC software.
 10. You can copy the installation file via a USB flash drive or through the remote connection you chose in previous steps.
 11. Run the installer; the installation path is totally up to you, I'm using C:/ETCMC.
-12. Once the installation is done, you will get an 'ETCMC LAUNCHER' shortcut on your desktop. Right-click on it and select 'Run as administrator' (always start it as an administrator).
-13. The 'ETCMC NODE LAUNCHER' window will open. Here, you need to choose the GETH CLIENT.
-14. The GETH client will start in another window. Since this is the first start of your node software, you will need to register the node. **YOU CANNOT REGISTER MULTIPLE NODES WITH A SINGLE LICENSE; ONE LICENSE - ONE NODE**.
-15. Click the 'REGISTER NODE' button. You will be prompted for your wallet address, username, and email.
-16. You should use the exact values you used for the license purchase.
-17. Click 'Register'. Once you get a successful response, close this popup. You will not need to do it again for the current node.
-18. Your main buttons from now on will be 'EARN ETCPOW' and 'STOP NODE'. Click 'EARN ETCPOW' once.
-19. Fresh nodes will download the full ETC blockchain before they start earning for you, which might take up to 5-6 hours. You don't need to do anything; earning will start once the blockchain is downloaded.
+12. Once the installation is done, you will get an 'ETCMC LAUNCHER' shortcut on your desktop.
+13. If this is not the first ETCMC node in your network, you need to change the network port. Please refer to the FAQ section below for guidance. Once the port configuration is complete, you are ready to proceed to step 14.
+14. Right-click on it and select 'Run as administrator' (always start it as an administrator).
+15. The 'ETCMC NODE LAUNCHER' window will open. Here, you need to choose the GETH CLIENT.
+16. The GETH client will start in another window. Since this is the first start of your node software, you will need to register the node. **YOU CANNOT REGISTER MULTIPLE NODES WITH A SINGLE LICENSE; ONE LICENSE - ONE NODE**.
+17. Click the 'REGISTER NODE' button. You will be prompted for your wallet address, username, and email.
+18. You should use the exact values you used for the license purchase.
+19. Click 'Register'. Once you get a successful response, close this popup. You will not need to do it again for the current node.
+20. Your main buttons from now on will be 'EARN ETCPOW' and 'STOP NODE'. Click 'EARN ETCPOW' once.
+21. Fresh nodes will download the full ETC blockchain before they start earning for you, which might take up to 5-6 hours. You don't need to do anything; earning will start once the blockchain is downloaded.
 
 ## Routine node management 👷‍♂️
 
@@ -93,12 +95,26 @@ Please keep in mind that any power cuts or improper shutdowns may harm your uncl
 1. STOP NODE
 2. Close both ETCMC windows
 
-## FAQ
+## FAQ ❓
 - **How to run multiple nodes in one network?**
-    - In order to run multiple nodes in single network you will need to configure custom network port for each node.
-    - The very first node can be untouched, all next nodes should have custom port.
-    - Default ETCMC node port is 30303, the next one should be 30306, 30309 and so on.
-    - Go to your ETCMC software installation path -> ETCMC_GUI -> ETCMC_GETH -> right click on START_GETH_FAST_NODE1.bat -> Show more options(skip in Windows 10)
+    - To run multiple nodes in a single network, you need to configure a custom network port for each node.
+    - The very first node can remain with its default settings; all subsequent nodes should have a custom port.
+    - The default ETCMC node port is 30303. The next one should be 30306, followed by 30309, and so on. 
+    - Navigate to your ETCMC software installation path -> ETCMC_GUI -> ETCMC_GETH. Right-click on START_GETH_FAST_NODE -> Show more options (skip this step in Windows 10) -> Edit.
+    - Notepad will open. You need to find the line:
+    - ```geth --classic --syncmode "snap" --cache 1024 --metrics --http --http.addr "localhost" --http.port "8545" --http.corsdomain "*" --ws --ws.addr "localhost" --ws.port "8546" --ws.origins "*" --datadir ".\gethDataDirFastNode" --identity "ETCMCgethNode" console```
+    - Replace it with
+    - ```geth --classic --syncmode "snap" --cache 1024 --metrics --http --http.addr "localhost" --http.port "8545" --http.corsdomain "*" --ws --ws.addr "localhost" --ws.port "8546" --ws.origins "*" --datadir ".\gethDataDirFastNode" --identity "ETCMCgethNode" --port 30306 console```
+    - Simply add the port before the word console, like ```--port 30306```.
+    - Press Ctrl + S to save.
+    - Close notepad.
+- My node isn't earning money! I'm constantly seeing an output like ```Looking for peers peercount=0 blah blah blah```. What should I do?
+    - There might be several reasons. First, check that your node has internet access and that the internet can access your node.
+    - To check internet access on the node, simply open Chrome, Edge, or whatever browser you have there and try to open any website.
+    - To check if the internet can access your node, ensure UPnP is enabled on your router (as mentioned in the hardware list above) and verify that your node's IP address appears in the router's UPnP list.
+    - If you have already verified that your internet input and output are okay, then the issue might stem from the ETCMC software/network side, and there is nothing special to do.
+    - The ETCMC FAQ suggests "Gracefully stop your node, close the software, and reboot the PC" (instructions are in the node management section above). ETCMC support says to "patiently wait for it". The author of this document does the following: If your node has peercount=0 for 30 minutes or so - stop it, close the software, reboot the PC, and repeat until your node starts to earn ETCPOW.
+
 
 
 ## Donate 💸
