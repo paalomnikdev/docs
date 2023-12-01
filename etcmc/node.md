@@ -124,3 +124,4 @@ ETC/ETCPOW address **0xAf8AD530a794cc06c111917640FC3f2948D3c4b4**
 
 ## Useful links 🔗
 - [![](https://dcbadge.vercel.app/api/server/etcmc)](https://discord.com/invite/etcmc)
+- [ETCMC YouTube channel](https://www.youtube.com/@ETCMC-Official)
