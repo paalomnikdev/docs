@@ -101,4 +101,4 @@ If this guide was helpful for you and you want to say thank you you can tip me t
 ETC/ETCPOW address **0xAf8AD530a794cc06c111917640FC3f2948D3c4b4**
 
 ## Useful links 🔗
-- ETCMC discord server [![](https://dcbadge.vercel.app/api/server/etcmc)](https://discord.com/invite/etcmc)
+- [![](https://dcbadge.vercel.app/api/server/etcmc)](https://discord.com/invite/etcmc)
