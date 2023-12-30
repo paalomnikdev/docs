@@ -19,7 +19,7 @@ This guide is created specifically for the Firebat AK2 Plus mini PC but will wor
 
 ## Software list for node 📀
 - windows 10/11
-- ccleaner
+- ~~ccleaner~~
 
 ## Money 💳
 Each ETCMC node requires a digital license (currently priced at $249). You can only purchase it using ETCPOW. Additionally, you will need a self-custodial wallet that supports the ETC blockchain. All licenses and payouts will be tied to your wallet. Therefore, the money-related list includes:
